@@ -9,6 +9,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetPose.srv"
   "srv/SetParam.srv"
   "srv/SetMode.srv"
+  "srv/PlannerService.srv"
+  "srv/SetStiffness.srv"
+  "srv/ControllerActivation.srv"
+  "msg/JacobianEE.msg"
+  "msg/JointEEState.msg"
+  "msg/PoseDirection.msg"
+  "msg/JointConfig.msg"
   DEPENDENCIES std_msgs builtin_interfaces
 )
 
