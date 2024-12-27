@@ -9,6 +9,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetPose.srv"
   "srv/SetParam.srv"
   "srv/SetMode.srv"
+<<<<<<< HEAD
   "srv/PlannerService.srv"
   "srv/SetStiffness.srv"
   "srv/ControllerActivation.srv"
@@ -16,6 +17,14 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/JointEEState.msg"
   "msg/PoseDirection.msg"
   "msg/JointConfig.msg"
+=======
+  "msg/TauGravity.msg"
+  "msg/Jacobian.msg"
+  "msg/GravityForceVector.msg"
+  "msg/Acceleration.msg"
+  "msg/TransformationMatrix.msg"
+  "msg/ClosestPoint.msg"
+>>>>>>> d41cb52 (Added custom messages)
   DEPENDENCIES std_msgs builtin_interfaces
 )
 
